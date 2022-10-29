@@ -1,0 +1,26 @@
+{
+  "name": "fastify-template",
+  "description": "fastify template with mongodb",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint --fix ."
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.1.1",
+    "@fastify/sensible": "^5.1.1",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.9.2",
+    "fastify-plugin": "^4.3.0",
+    "mongoose": "^6.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "nodemon": "^2.0.20",
+    "pino-pretty": "^9.1.1"
+  }
+}
